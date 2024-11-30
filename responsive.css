@@ -1,0 +1,260 @@
+@media(max-width:1300px){
+    /* Footer-Area Starts */
+    .footer-top{
+        padding: 0 30px;
+     }
+     hr{
+        width: 90%;
+        margin: 0 auto;
+     }
+     .top-left h3{
+        width: 60%;
+     }
+     .footer-middle{
+        flex-direction: column;
+        gap: 0;
+     }
+     .middle-left{
+        padding: 0 50px;
+        width: 100%;
+     }
+     .middle-left h2{
+        font-size: 2.4rem;
+     }
+     
+     .menu-utilities {
+        padding-right: 50px;
+    }
+     .middle-right{
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .input{
+        width: 100%;
+    }
+.input input{
+        width: 100%;
+    }
+    .footer-bottom{
+        padding: 0 50px;
+    }
+    .bottom-left{
+        flex-direction: column;
+    }
+    .bottom-left h6{
+        margin-bottom: 15px;
+    }
+    .bottom-left h5{
+        display: none;
+    }
+    .bottom-right {
+        margin-top: 0;
+    }
+
+    .input-btn input {
+        padding-right:0;
+    }
+    .icon {
+        font-size: 2.0rem;
+    }
+     /* Footer-Area Ends */
+}
+
+@media(max-width:1100px){
+
+    /* Hero-Area start */
+    .hero-wraper{
+        padding: 100px 30px;
+    }
+
+    .hero-area h1{
+        font-size: 3.8rem;
+        font-weight: 700;
+        line-height: 50px;
+        margin: 15px 0;
+    }
+
+    .hero-area p{
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    /* Hero-Area end */
+
+    /* About-Area start */
+    .about-area h2{
+        font-size: 2.5rem;
+        line-height: 35px;
+    }
+
+    
+    .about-area h3{
+       font-size: 1.5rem;
+    }
+
+    .about-area p{
+        font-size: 1.4rem;
+    }
+
+    .about-area img{
+        height: 400px;
+    }
+       /* About-Area end */
+
+        /* Contact-Area Starts */
+    .contact-area{
+        padding: 80px 0;
+    }
+    .contact-wraper{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .contact-left{
+        text-align: center;
+    }
+    .contact-right{
+        width: 100%;
+        padding: 0 50px;
+        margin-bottom: 0;
+    }
+
+    /* Contact-Area Ends */
+}
+
+@media(max-width:1030px){
+    .button{
+        display: none;
+    }
+}
+
+@media(max-width:850px){
+    .logo{
+        width: 100%;
+    }
+    .logo .fa-bars{
+        display: block;
+    }
+
+.menu{
+    display: none;
+}
+}
+
+@media(max-width:768px){
+
+       /* Hero-Area start */
+
+    .hero-wraper{
+        text-align: center;
+    }
+
+    .hero-area h1{
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 40px;
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    .hero-area p{
+        font-size: 2rem;
+        font-weight: 400;
+        width: 100%;
+    }
+       /* Hero-Area end */
+
+      /* About-Area start */
+      .about-area{
+        padding: 30px 0;
+      }
+
+.about-top{
+    text-align: center;
+}
+.about-area h2{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.about-bottom {
+    margin-top: 15px;
+}
+
+.about-area .post {
+    margin-top: 20px;
+    width: 100%;
+}
+/* Avout-Area end */
+
+/* Contact-Area start */
+.contact-right input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-right textarea {
+    padding: 10px;
+}
+
+.contact-area{
+            padding: 50px 0;
+        }
+    .contact-wraper{
+        gap: 50px;
+    }
+
+    .contact-area h2{
+        font-size: 2.5rem;
+    }
+    .contact-area p{
+        font-size: 1.6rem;
+    }
+
+    .contact-right input {
+        font-size: 1.5rem;
+    }
+    .contact-right textarea {
+        font-size: 1.5rem;
+    }
+/* Contact-Area end */
+
+    /* Footer-Area Starts */
+    .middle-left{
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 40px;
+    }
+    .middle-left .logo-heading {
+        padding: 0 0;
+        margin-left: 0;
+    }
+    .menu-utilities {
+        gap: 0;
+        justify-content: space-between;
+    }
+    .middle-right {
+        padding: 0 30px;
+    }
+    .middle-right p {
+        margin-top: 25px;
+    }
+    .input-btn {
+        flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        padding: 0 30px;
+        gap: 25px;
+    }
+    .bottom-left{
+        width: 100%;
+    }
+    .bottom-right{
+        width: 100%;
+    }
+     /* Footer-Area Ends */
+}
